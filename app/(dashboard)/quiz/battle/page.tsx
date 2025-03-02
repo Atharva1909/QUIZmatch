@@ -507,7 +507,7 @@ export default function QuizBattlePage() {
                 {score > opponentScore ? (
                   <div className="text-center">
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-100 text-green-600 dark:bg-green-900/30 dark:text-green-400 mb-4">
-                      <Trophy className="h-8 w-8" />
+
                     </div>
                     <h3 className="text-2xl font-bold mb-2">You Won!</h3>
                     <p className="text-muted-foreground">
